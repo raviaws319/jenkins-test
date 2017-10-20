@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="3" time="39.803"><testcase classname="run_component_tests" file="run_component_tests.py" line="57" name="test_config_load" time="37.7831492424"><system-out>connected to 10.10.48.45
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="1" failures="1" name="pytest" skips="0" tests="3" time="39.803"><testcase classname="run_component_tests" file="run_component_tests.py" line="57" name="test_config_load" time="37.7831492424"><system-out>connected to 10.10.48.45
 Reverting VM to snapshot snap02
 (&apos;Reverting snapshot &apos;, &apos;snap02&apos;)
 Uploading  plat_pilots.tgz to VM
