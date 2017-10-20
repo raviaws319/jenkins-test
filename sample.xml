@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="3" time="39.803"><testcase classname="run_component_tests" file="run_component_tests.py" line="57" name="test_config_load" time="37.7831492424"><system-out>connected to 10.10.48.45
+Reverting VM to snapshot snap02
+(&apos;Reverting snapshot &apos;, &apos;snap02&apos;)
+Uploading  plat_pilots.tgz to VM
+Moving plat_pilots.tgz
+unpacking plat_pilots.tgz
+./initializer2.sh
+./standalone.cfg
+running initializer2.sh
+Loaded image: docker.mot-solutions.com/skyline/platmgr_api_stub:latest
+Loaded image: docker.mot-solutions.com/skyline/platmgr_api_stub:0.0.1
+Loaded image: docker.mot-solutions.com/skyline/platmgr_duer_stub:latest
+Loaded image: docker.mot-solutions.com/skyline/platmgr_duer_stub:0.0.1
+imageName: docker.mot-solutions.com/skyline/platmgr_api_stub
+docker run -d docker.mot-solutions.com/skyline/platmgr_api_stub:0.0.1 bash /bin/true
+20bc6a6a682580215b5c8eebbed2da12a8359a60c28f2627b40991707fc6423e
+imageName: docker.mot-solutions.com/skyline/platmgr_duer_stub
+docker run -d docker.mot-solutions.com/skyline/platmgr_duer_stub:0.0.1 bash /bin/true
+8e24daf65c3bef45313f5e5104d73d307266160afa81c82ad9fdf5383e77cd5d
+</system-out><system-err>Warning: Permanently added &apos;10.10.48.143&apos; (ECDSA) to the list of known hosts.
+Warning: Permanently added &apos;10.10.48.143&apos; (ECDSA) to the list of known hosts.
+Warning: Permanently added &apos;10.10.48.143&apos; (ECDSA) to the list of known hosts.
+Warning: Permanently added &apos;10.10.48.143&apos; (ECDSA) to the list of known hosts.
+Warning: Permanently added &apos;10.10.48.143&apos; (ECDSA) to the list of known hosts.
+Warning: Permanently added &apos;10.10.48.143&apos; (ECDSA) to the list of known hosts.
+</system-err></testcase><testcase classname="run_component_tests" file="run_component_tests.py" line="66" name="test_image_load" time="0.793118000031"><system-out>docker.mot-solutions.com/skyline/platmgr_duer_stub   0.0.1               91ad26be3a31        9 hours ago         164.3 MB
+docker.mot-solutions.com/skyline/platmgr_duer_stub   latest              91ad26be3a31        9 hours ago         164.3 MB
+
+docker.mot-solutions.com/skyline/platmgr_api_stub    0.0.1               29208f1c4200        9 hours ago         196.9 MB
+docker.mot-solutions.com/skyline/platmgr_api_stub    latest              29208f1c4200        9 hours ago         196.9 MB
+
+</system-out><system-err>Warning: Permanently added &apos;10.10.48.143&apos; (ECDSA) to the list of known hosts.
+Warning: Permanently added &apos;10.10.48.143&apos; (ECDSA) to the list of known hosts.
+</system-err></testcase><testcase classname="run_component_tests" file="run_component_tests.py" line="80" name="test_container_load" time="0.795365333557"><system-out>8e24daf65c3b        docker.mot-solutions.com/skyline/platmgr_duer_stub:0.0.1   &quot;bash /bin/true&quot;    2 seconds ago       Exited (126) 1 seconds ago                       reverent_spence
+
+20bc6a6a6825        docker.mot-solutions.com/skyline/platmgr_api_stub:0.0.1    &quot;bash /bin/true&quot;    3 seconds ago       Exited (126) 2 seconds ago                       distracted_bhaskara
+
+</system-out><system-err>Warning: Permanently added &apos;10.10.48.143&apos; (ECDSA) to the list of known hosts.
+Warning: Permanently added &apos;10.10.48.143&apos; (ECDSA) to the list of known hosts.
+</system-err></testcase></testsuite>
